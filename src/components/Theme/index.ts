@@ -1,9 +1,11 @@
-import typography from './create-typography';
+import typography from "./create-typography";
+import palette from "./create-palette";
 
 const Theme = () => {
-	return {
-		typography
-	}
-}
+  return {
+    typography,
+    palette
+  };
+};
 
 export default Theme();
