@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-import { UserListTemplate } from "templates/user/list";
+import { UserListTemplate } from 'templates/user/list'
 
-const Index = () => <UserListTemplate />;
+const Index = () => <UserListTemplate />
 
-export default Index;
+export default Index

@@ -1,9 +1,5 @@
-import React from 'react';
+import React from 'react'
 
-const Index = () => (
-	<div>
-		<p>Hello Next.js</p>
-	</div>
-);
+const Index = () => <p>Hello Next.js</p>
 
-export default Index;
+export default Index
