@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useRouter } from 'next/router';
 
 import { Table, HeaderCell } from 'components/table';
 
@@ -7,10 +8,11 @@ import * as S from './styled';
 
 export const UserListTemplate = () => {
   const header: HeaderCell[] = [{ child: 'Login' }, { child: 'ID' }];
+
+  const router = useRouter();
   const [rows, setRows] = useState(
     M.firstPage.map(data => ({ columns: Object.values(data) }))
   );
-
   const [paginationProps, setPaginationProps] = useState({
     firstItemIndex: 1,
     lastItemIndex: 10,
@@ -38,13 +40,20 @@ export const UserListTemplate = () => {
     },
   });
 
+  const detailUser = (userLogin: string) => {
+    router.push(`/user/${userLogin}`);
+  };
+
   return (
     <S.Container>
       <S.TableContainer>
         <Table
           header={header}
           rows={rows}
-          rowClickHandler={console.log}
+          rowClickHandler={row => {
+            const userLogin = row.columns[0]?.toString();
+            if (userLogin) detailUser(userLogin);
+          }}
           paginationProps={paginationProps}
         />
       </S.TableContainer>
