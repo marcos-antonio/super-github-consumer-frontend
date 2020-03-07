@@ -1,15 +1,25 @@
 import styled from 'styled-components';
+import { Card } from '../../../components/card';
 
 export const Container = styled.div`
   display: flex;
   flex: 1;
   justify-content: center;
+  align-items: center;
+  height: 100%;
+`;
 
-  & > div {
-    :nth-child(n + 2) {
-      margin-left: 10px;
-    }
-  }
+export const PaddedCard = styled(Card)`
+  padding: 16px;
+
+  max-width: 50%;
+`;
+
+export const FieldVisualizerContainer = styled.div`
+  display: flex;
+  flex: 1;
+
+  min-width: 50%;
 `;
 
 export const FieldVisualizer = styled.div`
