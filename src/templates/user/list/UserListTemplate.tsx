@@ -41,7 +41,7 @@ export const UserListTemplate = () => {
   });
 
   const detailUser = (userLogin: string) => {
-    router.push(`/user/${userLogin}`);
+    router.push(`/users/${userLogin}`);
   };
 
   return (
