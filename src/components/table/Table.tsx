@@ -1,6 +1,8 @@
-import React, { FunctionComponent, ReactNode } from 'react'
+import React, { FunctionComponent, ReactNode } from 'react';
 
-import * as S from './styles'
+import { Pagination, PaginationProps } from 'components/pagination';
+
+import * as S from './styles';
 
 export interface Row {
   /**
@@ -8,33 +10,35 @@ export interface Row {
    * These elements will only be applied if there are a header for it.
    * e.g.: If there is only 2 headers and 3 columns, only 2 columns will be rendered.
    */
-  columns: ReactNode[]
+  columns: ReactNode[];
 }
 
 export interface HeaderCell {
   /**
    * The element that will compose the table header
    */
-  child: ReactNode
+  child: ReactNode;
 
   /**
    * Size in % that whole column will to have.
    * e.g: If setted to 20, this header and all of its rowCells will have the same size.
    * If not setted, the colum will try to take the available space
    */
-  size?: number
+  size?: number;
 }
 
 export interface TableProps {
-  header: HeaderCell[]
-  rows: Row[]
-  rowClickHandler?: (row: Row) => void
+  header: HeaderCell[];
+  rows: Row[];
+  rowClickHandler?: (row: Row) => void;
+  paginationProps?: PaginationProps;
 }
 
 export const Table: FunctionComponent<TableProps> = ({
   header,
   rows,
   rowClickHandler,
+  paginationProps,
 }) => {
   const getMountedHeader = () => {
     return header.map((h, i) => {
@@ -42,9 +46,9 @@ export const Table: FunctionComponent<TableProps> = ({
         <S.HeaderCell key={i} size={h.size}>
           {h.child}
         </S.HeaderCell>
-      )
-    })
-  }
+      );
+    });
+  };
 
   const getMountedRows = () => {
     return rows.map((row, rowIndex) => {
@@ -59,20 +63,25 @@ export const Table: FunctionComponent<TableProps> = ({
                 >
                   {column}
                 </S.RowCell>
-              )
+              );
             })}
           </S.Row>
         </S.RowContainer>
-      )
-    })
-  }
+      );
+    });
+  };
 
   return (
-    <S.Table>
-      <S.HeaderContainer>
-        <S.Header>{getMountedHeader()}</S.Header>
-      </S.HeaderContainer>
-      <S.Body>{getMountedRows()}</S.Body>
-    </S.Table>
-  )
-}
+    <S.Container>
+      <S.Table>
+        <S.HeaderContainer>
+          <S.Header>{getMountedHeader()}</S.Header>
+        </S.HeaderContainer>
+        <S.Body>{getMountedRows()}</S.Body>
+      </S.Table>
+      <S.PaginationContainer>
+        {paginationProps && <Pagination {...paginationProps} />}
+      </S.PaginationContainer>
+    </S.Container>
+  );
+};

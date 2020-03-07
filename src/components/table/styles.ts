@@ -1,14 +1,22 @@
 import styled from 'styled-components';
 
-export const Table = styled.div`
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 50%;
-  border-radius: 2px;
+  height: 100%;
 
-  overflow-y: auto;
+  border-radius: 2px;
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2),
     -2px 4px 5px 0px rgba(0, 0, 0, 0.1), 2px 4px 5px 0px rgba(0, 0, 0, 0.1);
+`;
+
+export const Table = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+
+  overflow-y: auto;
 `;
 
 export const HeaderContainer = styled.div`
@@ -67,4 +75,9 @@ export const RowCell = styled.div<{ size?: number }>`
   font-weight: ${({ theme }) => theme.typography.fontWeightMedium};
   font-size: ${({ theme }) => theme.typography.fontSizeXS};
   color: ${({ theme }) => theme.palette.onBackground};
+`;
+
+export const PaginationContainer = styled.div`
+  display: flex;
+  flex: iniitial;
 `;
