@@ -10,7 +10,9 @@ export const Container = styled.div`
 
 export const TableContainer = styled.div`
   display: flex;
+  flex-direction: column;
   max-height: 50%;
-  justify-content: center;
+  height: 50%;
+  align-items: center;
   flex: 1;
 `;
