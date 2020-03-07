@@ -19,7 +19,7 @@ export const ItemCounterContainer = styled.div`
   font-size: ${({ theme }) => theme.typography.fontSizeXS};
   color: ${({ theme }) => theme.palette.onBackground};
 
-  margin-right: 20px;
+  margin-right: 40px;
 `;
 
 export const ArrowLeftIcon = styled(KeyboardArrowLeft)<{ disabled: boolean }>`
