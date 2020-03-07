@@ -1,23 +1,28 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Table = styled.div`
   display: flex;
   flex-direction: column;
-  width: 100%;
-`
+  width: 50%;
+  border-radius: 2px;
+
+  overflow-y: auto;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2),
+    -2px 4px 5px 0px rgba(0, 0, 0, 0.1), 2px 4px 5px 0px rgba(0, 0, 0, 0.1);
+`;
 
 export const HeaderContainer = styled.div`
-  width: 100%;
+  width: calc(100% - 16px);
   border-bottom: solid 1px rgba(0, 0, 0, 0.2);
   padding: 0 8px;
-`
+`;
 
 export const Header = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
-`
+`;
 
 export const HeaderCell = styled.div<{ size?: number }>`
   display: flex;
@@ -28,29 +33,30 @@ export const HeaderCell = styled.div<{ size?: number }>`
   font-weight: ${({ theme }) => theme.typography.fontWeightMedium};
   font-size: ${({ theme }) => theme.typography.fontSizeXS};
   color: ${({ theme }) => theme.palette.onBackground};
-`
+`;
 
 export const Body = styled.div`
   display: flex;
   flex-direction: column;
-`
+`;
 
 export const RowContainer = styled.div`
-  width: 100%;
+  width: calc(100% - 16px);
   border-bottom: solid 1px rgba(0, 0, 0, 0.2);
   padding: 8px;
+  cursor: pointer;
 
   &:hover {
-    background-color: ${({ theme }) => theme.palette.onBackground};
+    background-color: rgba(0, 0, 0, 0.04);
   }
-`
+`;
 
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
-`
+`;
 
 export const RowCell = styled.div<{ size?: number }>`
   display: flex;
@@ -61,4 +67,4 @@ export const RowCell = styled.div<{ size?: number }>`
   font-weight: ${({ theme }) => theme.typography.fontWeightMedium};
   font-size: ${({ theme }) => theme.typography.fontSizeXS};
   color: ${({ theme }) => theme.palette.onBackground};
-`
+`;
