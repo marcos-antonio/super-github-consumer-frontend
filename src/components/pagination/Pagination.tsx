@@ -44,11 +44,11 @@ export const Pagination: FunctionComponent<PaginationProps> = ({
       </S.ItemCounterContainer>
       <S.ArrowLeftIcon
         disabled={previousPageDisabled}
-        onClick={() => previousPageClickHandler()}
+        onClick={() => !previousPageDisabled && previousPageClickHandler()}
       />
       <S.ArrowRightIcon
         disabled={nextPageDisabled}
-        onClick={() => nextPageClickHandler()}
+        onClick={() => !nextPageDisabled && nextPageClickHandler()}
       />
     </S.Container>
   );
