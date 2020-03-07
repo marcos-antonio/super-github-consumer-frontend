@@ -53,8 +53,11 @@ export const Table: FunctionComponent<TableProps> = ({
   const getMountedRows = () => {
     return rows.map((row, rowIndex) => {
       return (
-        <S.RowContainer key={`row-${rowIndex}`}>
-          <S.Row onClick={() => rowClickHandler?.(row)}>
+        <S.RowContainer
+          key={`row-${rowIndex}`}
+          onClick={() => rowClickHandler?.(row)}
+        >
+          <S.Row>
             {row.columns.slice(0, header.length).map((column, columnIndex) => {
               return (
                 <S.RowCell
