@@ -79,5 +79,7 @@ export const RowCell = styled.div<{ size?: number }>`
 
 export const PaginationContainer = styled.div`
   display: flex;
-  flex: iniitial;
+  flex: initial;
+
+  border-top: solid 1px rgba(0, 0, 0, 0.2);
 `;
