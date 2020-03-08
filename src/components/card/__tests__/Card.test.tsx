@@ -13,12 +13,17 @@ describe('Component: Card', () => {
   beforeEach(() => {
     wrapper = render(
       <ThemeProvider theme={theme}>
-        <Card>asdajio</Card>
+        <Card>render me</Card>
       </ThemeProvider>
     );
   });
 
   it('render the component', () => {
     expect(wrapper).toMatchSnapshot();
+  });
+
+  it('render the component with text render me', () => {
+    const { getByText } = wrapper;
+    expect(getByText(/render me/i)).toBeTruthy();
   });
 });

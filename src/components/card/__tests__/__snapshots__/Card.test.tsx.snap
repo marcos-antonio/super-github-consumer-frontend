@@ -8,7 +8,7 @@ Object {
       <div
         class="styled__OuterContainer-sc-1n0101z-0 esPeft"
       >
-        asdajio
+        render me
       </div>
     </div>
   </body>,
@@ -16,7 +16,7 @@ Object {
     <div
       class="styled__OuterContainer-sc-1n0101z-0 esPeft"
     >
-      asdajio
+      render me
     </div>
   </div>,
   "debug": [Function],
