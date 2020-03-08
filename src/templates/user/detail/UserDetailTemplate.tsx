@@ -1,12 +1,31 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 
 import { DateFormatter } from 'utils/DateTransformer';
+import { User } from 'model/user';
+import { Repo } from 'model/repo';
 
-import * as M from './mock';
 import * as S from './styled';
+import { Table, HeaderCell, Row } from 'components/table';
 
-export const UserDetailTemplate = () => {
-  const { login, id, html_url, created_at } = M.user;
+export interface UserDetailTemplateProps {
+  user: User;
+  userRepos: Repo[];
+}
+
+export const UserDetailTemplate: FunctionComponent<UserDetailTemplateProps> = ({
+  user,
+  userRepos,
+}) => {
+  const { id, login, htmlUrl, avatarUrl, createdAt } = user;
+
+  const reposTableHeader: HeaderCell[] = [
+    { child: 'ID' },
+    { child: 'Name' },
+    { child: 'URL' },
+  ];
+  const reposTableRows: Row[] = userRepos?.map(r => ({
+    columns: Object.values(r),
+  }));
 
   return (
     <S.Container>
@@ -26,17 +45,22 @@ export const UserDetailTemplate = () => {
         <S.FieldVisualizerContainer>
           <S.FieldVisualizer>
             <S.FieldLabel>Profile URL:</S.FieldLabel>
-            <a href={html_url} target="_blank" rel="noreferrer noopener">
-              {html_url}
+            <a href={htmlUrl} target="_blank" rel="noreferrer noopener">
+              {htmlUrl}
             </a>
           </S.FieldVisualizer>
         </S.FieldVisualizerContainer>
         <S.FieldVisualizerContainer>
           <S.FieldVisualizer>
             <S.FieldLabel>Created:</S.FieldLabel>
-            {DateFormatter.formatStringToBrPattern(created_at)}
+            {DateFormatter.formatStringToBrPattern(createdAt)}
           </S.FieldVisualizer>
         </S.FieldVisualizerContainer>
+        <S.ReposTableContainer>
+          {userRepos && (
+            <Table header={reposTableHeader} rows={reposTableRows} />
+          )}
+        </S.ReposTableContainer>
       </S.PaddedCard>
     </S.Container>
   );

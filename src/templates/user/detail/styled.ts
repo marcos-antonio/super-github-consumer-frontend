@@ -36,3 +36,9 @@ export const FieldLabel = styled.span`
   font-weight: ${({ theme }) => theme.typography.fontWeightNormal};
   font-size: ${({ theme }) => theme.typography.fontSizeMS};
 `;
+
+export const ReposTableContainer = styled.div`
+  display: flex;
+  flex: 1;
+  margin-top: 20px;
+`;
