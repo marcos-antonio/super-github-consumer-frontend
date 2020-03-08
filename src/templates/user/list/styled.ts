@@ -13,6 +13,8 @@ export const TableContainer = styled.div`
   flex-direction: column;
   max-height: 50%;
   height: 50%;
+  width: 50%;
+  max-width: 50%;
   align-items: center;
   flex: 1;
 `;
