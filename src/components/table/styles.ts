@@ -52,7 +52,7 @@ export const RowContainer = styled.div<{ hasClickAction: boolean }>`
   width: calc(100% - 16px);
   border-bottom: solid 1px rgba(0, 0, 0, 0.2);
   padding: 8px;
-  cursor: ${({ hasClickAction }) => (hasClickAction ? 'pointer' : 'default')};
+  cursor: ${({ hasClickAction }) => (hasClickAction ? 'pointer' : 'unset')};
 
   &:hover {
     background-color: rgba(0, 0, 0, 0.04);
