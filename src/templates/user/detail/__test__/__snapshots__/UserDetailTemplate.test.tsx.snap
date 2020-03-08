@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: UserDetailTemplate render the component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styled__Container-sc-1cpfoq6-0 jtSYYf"
+      >
+        <div
+          class="styled__OuterContainer-sc-1n0101z-0 esPeft styled__PaddedCard-sc-1cpfoq6-1 iflVqZ"
+        >
+          <div
+            class="styled__AvatarContainer-sc-1cpfoq6-2 gtcBXx"
+          >
+            <img
+              class="styled__StyledAvatar-sc-1cpfoq6-3 dcoiU"
+              src="https://avatars3.githubusercontent.com/u/583231?v=4"
+            />
+          </div>
+          <div
+            class="styled__FieldVisualizerContainer-sc-1cpfoq6-4 dzCPpZ"
+          >
+            <div
+              class="styled__FieldVisualizer-sc-1cpfoq6-5 brYMUh"
+            >
+              <span
+                class="styled__FieldLabel-sc-1cpfoq6-6 dBnWVU"
+              >
+                Login
+              </span>
+              octocat
+            </div>
+          </div>
+          <div
+            class="styled__FieldVisualizerContainer-sc-1cpfoq6-4 fPafDS"
+          >
+            <div
+              class="styled__FieldVisualizer-sc-1cpfoq6-5 brYMUh"
+            >
+              <span
+                class="styled__FieldLabel-sc-1cpfoq6-6 dBnWVU"
+              >
+                User ID
+              </span>
+              583231
+            </div>
+          </div>
+          <div
+            class="styled__FieldVisualizerContainer-sc-1cpfoq6-4 dzCPpZ"
+          >
+            <div
+              class="styled__FieldVisualizer-sc-1cpfoq6-5 brYMUh"
+            >
+              <span
+                class="styled__FieldLabel-sc-1cpfoq6-6 dBnWVU"
+              >
+                Profile URL
+              </span>
+              <a
+                href="https://github.com/octocaat"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                https://github.com/octocaat
+              </a>
+            </div>
+          </div>
+          <div
+            class="styled__FieldVisualizerContainer-sc-1cpfoq6-4 fPafDS"
+          >
+            <div
+              class="styled__FieldVisualizer-sc-1cpfoq6-5 brYMUh"
+            >
+              <span
+                class="styled__FieldLabel-sc-1cpfoq6-6 dBnWVU"
+              >
+                Created
+              </span>
+              25/1/2011
+            </div>
+          </div>
+          <div
+            class="styled__ReposTableContainer-sc-1cpfoq6-7 kryfrd"
+          >
+            <div
+              class="styled__Container-q0w278-0 iFBbUj"
+            >
+              <div
+                class="styled__Table-q0w278-1 eJXAqz"
+              >
+                <div
+                  class="styled__HeaderContainer-q0w278-2 fUNRQo"
+                >
+                  <div
+                    class="styled__Header-q0w278-3 klUxVQ"
+                  >
+                    <div
+                      class="styled__HeaderCell-q0w278-4 cXSibf"
+                    >
+                      ID
+                    </div>
+                    <div
+                      class="styled__HeaderCell-q0w278-4 cXSibf"
+                    >
+                      Name
+                    </div>
+                    <div
+                      class="styled__HeaderCell-q0w278-4 cXSibf"
+                    >
+                      URL
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="styled__Body-q0w278-5 gHKXfy"
+                >
+                  <div
+                    class="styled__RowContainer-q0w278-6 bOruCu"
+                  >
+                    <div
+                      class="styled__Row-q0w278-7 htLHt"
+                    >
+                      <div
+                        class="styled__RowCell-q0w278-8 fTlsqw"
+                      >
+                        132935648
+                      </div>
+                      <div
+                        class="styled__RowCell-q0w278-8 fTlsqw"
+                      >
+                        boysenberry-repo-1
+                      </div>
+                      <div
+                        class="styled__RowCell-q0w278-8 fTlsqw"
+                      >
+                        https://github.com/octocat/boysenberry-repo-1
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="styled__RowContainer-q0w278-6 bOruCu"
+                  >
+                    <div
+                      class="styled__Row-q0w278-7 htLHt"
+                    >
+                      <div
+                        class="styled__RowCell-q0w278-8 fTlsqw"
+                      >
+                        18221276
+                      </div>
+                      <div
+                        class="styled__RowCell-q0w278-8 fTlsqw"
+                      >
+                        git-consortium
+                      </div>
+                      <div
+                        class="styled__RowCell-q0w278-8 fTlsqw"
+                      >
+                        https://github.com/octocat/git-consortium
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="styled__RowContainer-q0w278-6 bOruCu"
+                  >
+                    <div
+                      class="styled__Row-q0w278-7 htLHt"
+                    >
+                      <div
+                        class="styled__RowCell-q0w278-8 fTlsqw"
+                      >
+                        20978623
+                      </div>
+                      <div
+                        class="styled__RowCell-q0w278-8 fTlsqw"
+                      >
+                        hello-worId
+                      </div>
+                      <div
+                        class="styled__RowCell-q0w278-8 fTlsqw"
+                      >
+                        https://github.com/octocat/hello-worId
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="styled__PaginationContainer-q0w278-9 huNEmJ"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styled__Container-sc-1cpfoq6-0 jtSYYf"
+    >
+      <div
+        class="styled__OuterContainer-sc-1n0101z-0 esPeft styled__PaddedCard-sc-1cpfoq6-1 iflVqZ"
+      >
+        <div
+          class="styled__AvatarContainer-sc-1cpfoq6-2 gtcBXx"
+        >
+          <img
+            class="styled__StyledAvatar-sc-1cpfoq6-3 dcoiU"
+            src="https://avatars3.githubusercontent.com/u/583231?v=4"
+          />
+        </div>
+        <div
+          class="styled__FieldVisualizerContainer-sc-1cpfoq6-4 dzCPpZ"
+        >
+          <div
+            class="styled__FieldVisualizer-sc-1cpfoq6-5 brYMUh"
+          >
+            <span
+              class="styled__FieldLabel-sc-1cpfoq6-6 dBnWVU"
+            >
+              Login
+            </span>
+            octocat
+          </div>
+        </div>
+        <div
+          class="styled__FieldVisualizerContainer-sc-1cpfoq6-4 fPafDS"
+        >
+          <div
+            class="styled__FieldVisualizer-sc-1cpfoq6-5 brYMUh"
+          >
+            <span
+              class="styled__FieldLabel-sc-1cpfoq6-6 dBnWVU"
+            >
+              User ID
+            </span>
+            583231
+          </div>
+        </div>
+        <div
+          class="styled__FieldVisualizerContainer-sc-1cpfoq6-4 dzCPpZ"
+        >
+          <div
+            class="styled__FieldVisualizer-sc-1cpfoq6-5 brYMUh"
+          >
+            <span
+              class="styled__FieldLabel-sc-1cpfoq6-6 dBnWVU"
+            >
+              Profile URL
+            </span>
+            <a
+              href="https://github.com/octocaat"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              https://github.com/octocaat
+            </a>
+          </div>
+        </div>
+        <div
+          class="styled__FieldVisualizerContainer-sc-1cpfoq6-4 fPafDS"
+        >
+          <div
+            class="styled__FieldVisualizer-sc-1cpfoq6-5 brYMUh"
+          >
+            <span
+              class="styled__FieldLabel-sc-1cpfoq6-6 dBnWVU"
+            >
+              Created
+            </span>
+            25/1/2011
+          </div>
+        </div>
+        <div
+          class="styled__ReposTableContainer-sc-1cpfoq6-7 kryfrd"
+        >
+          <div
+            class="styled__Container-q0w278-0 iFBbUj"
+          >
+            <div
+              class="styled__Table-q0w278-1 eJXAqz"
+            >
+              <div
+                class="styled__HeaderContainer-q0w278-2 fUNRQo"
+              >
+                <div
+                  class="styled__Header-q0w278-3 klUxVQ"
+                >
+                  <div
+                    class="styled__HeaderCell-q0w278-4 cXSibf"
+                  >
+                    ID
+                  </div>
+                  <div
+                    class="styled__HeaderCell-q0w278-4 cXSibf"
+                  >
+                    Name
+                  </div>
+                  <div
+                    class="styled__HeaderCell-q0w278-4 cXSibf"
+                  >
+                    URL
+                  </div>
+                </div>
+              </div>
+              <div
+                class="styled__Body-q0w278-5 gHKXfy"
+              >
+                <div
+                  class="styled__RowContainer-q0w278-6 bOruCu"
+                >
+                  <div
+                    class="styled__Row-q0w278-7 htLHt"
+                  >
+                    <div
+                      class="styled__RowCell-q0w278-8 fTlsqw"
+                    >
+                      132935648
+                    </div>
+                    <div
+                      class="styled__RowCell-q0w278-8 fTlsqw"
+                    >
+                      boysenberry-repo-1
+                    </div>
+                    <div
+                      class="styled__RowCell-q0w278-8 fTlsqw"
+                    >
+                      https://github.com/octocat/boysenberry-repo-1
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="styled__RowContainer-q0w278-6 bOruCu"
+                >
+                  <div
+                    class="styled__Row-q0w278-7 htLHt"
+                  >
+                    <div
+                      class="styled__RowCell-q0w278-8 fTlsqw"
+                    >
+                      18221276
+                    </div>
+                    <div
+                      class="styled__RowCell-q0w278-8 fTlsqw"
+                    >
+                      git-consortium
+                    </div>
+                    <div
+                      class="styled__RowCell-q0w278-8 fTlsqw"
+                    >
+                      https://github.com/octocat/git-consortium
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="styled__RowContainer-q0w278-6 bOruCu"
+                >
+                  <div
+                    class="styled__Row-q0w278-7 htLHt"
+                  >
+                    <div
+                      class="styled__RowCell-q0w278-8 fTlsqw"
+                    >
+                      20978623
+                    </div>
+                    <div
+                      class="styled__RowCell-q0w278-8 fTlsqw"
+                    >
+                      hello-worId
+                    </div>
+                    <div
+                      class="styled__RowCell-q0w278-8 fTlsqw"
+                    >
+                      https://github.com/octocat/hello-worId
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="styled__PaginationContainer-q0w278-9 huNEmJ"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
