@@ -58,4 +58,6 @@ export const ReposTableContainer = styled.div`
   display: flex;
   flex: 1;
   margin-top: 20px;
+
+  max-height: 200px;
 `;
