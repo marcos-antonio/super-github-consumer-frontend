@@ -1,4 +1,4 @@
-import React, { useState, FunctionComponent } from 'react';
+import React, { FunctionComponent } from 'react';
 import { useRouter } from 'next/router';
 
 import { Table, HeaderCell } from 'components/table';
@@ -9,8 +9,8 @@ import * as S from './styled';
 export interface UserListTemplateProps {
   userList: User[];
   hasPagination?: boolean;
-  nextPageClickHandler: () => void;
-  previousPageClickHandler: () => void;
+  nextPageClickHandler?: () => void;
+  previousPageClickHandler?: () => void;
   previousPageDisabled?: boolean;
   nextPageDisabled?: boolean;
 }
@@ -40,7 +40,7 @@ export const UserListTemplate: FunctionComponent<UserListTemplateProps> = ({
 
   return (
     <S.Container>
-      <S.TableContainer>
+      <S.TableContainer data-testid="table-container">
         <Table
           header={header}
           rows={rows}
