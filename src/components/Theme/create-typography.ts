@@ -15,7 +15,7 @@ const createTypography = () => {
     fontSizeS: '16px',
     fontSizeXS: '14px',
     fontSizeXXS: '12px',
-  }
-}
+  };
+};
 
-export default createTypography()
+export default createTypography();

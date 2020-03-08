@@ -1,30 +1,30 @@
-const primaryVariant = (variant: number = 500) => {
+const primaryVariant = (variant = 500) => {
   switch (variant) {
     default:
-      return '#6200EE'
+      return '#6200EE';
   }
-}
+};
 
-const secondaryVariant = (variant: number = 500) => {
+const secondaryVariant = (variant = 500) => {
   switch (variant) {
     default:
-      return '#03DAC5'
+      return '#03DAC5';
   }
-}
+};
 
-const onPrimaryVariant = (primaryVariant: number = 500) => {
+const onPrimaryVariant = (primaryVariant = 500) => {
   switch (primaryVariant) {
     default:
-      return '#FFFFFF'
+      return '#FFFFFF';
   }
-}
+};
 
-const onSecondaryVariant = (secondaryVariant: number = 500) => {
+const onSecondaryVariant = (secondaryVariant = 500) => {
   switch (secondaryVariant) {
     default:
-      return '#000000'
+      return '#000000';
   }
-}
+};
 
 const createPalette = () => ({
   primary: primaryVariant(),
@@ -41,6 +41,6 @@ const createPalette = () => ({
   secondaryVariant,
   onPrimaryVariant,
   onSecondaryVariant,
-})
+});
 
-export default createPalette()
+export default createPalette();
