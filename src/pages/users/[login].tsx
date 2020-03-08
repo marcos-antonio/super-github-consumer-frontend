@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import axios from 'axios';
+import originalAxios from 'axios';
+import axios from 'utils/defaultAxios';
 
 import { UserDetailTemplate } from 'templates/user/detail';
 
@@ -10,16 +11,16 @@ const Index = () => {
   const [user, setUser] = useState(null);
   const [userRepos, setUserRepos] = useState(null);
   const getUserDetail = () => {
-    return axios.get(`http://localhost:3001/users/${userLogin}/details`);
+    return axios.get(`users/${userLogin}/details`);
   };
   const getUserRepos = () => {
-    return axios.get(`http://localhost:3001/users/${userLogin}/repos`);
+    return axios.get(`users/${userLogin}/repos`);
   };
 
   useEffect(() => {
     if (!userLogin) return;
-    axios.all([getUserDetail, getUserRepos]).then(
-      axios.spread(async (userDetailReq, userReposReq) => {
+    originalAxios.all([getUserDetail, getUserRepos]).then(
+      originalAxios.spread(async (userDetailReq, userReposReq) => {
         const userDetail = (await userDetailReq()).data;
         const repos = (await userReposReq()).data;
         setUser(userDetail);

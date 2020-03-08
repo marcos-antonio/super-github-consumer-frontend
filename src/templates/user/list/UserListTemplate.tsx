@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { useRouter } from 'next/router';
 
-import { Table, HeaderCell } from 'components/table';
+import { Table, HeaderCell, Row } from 'components/table';
 import { User } from 'model/user';
 
 import * as S from './styled';
@@ -26,7 +26,9 @@ export const UserListTemplate: FunctionComponent<UserListTemplateProps> = ({
   const header: HeaderCell[] = [{ child: 'ID' }, { child: 'Login' }];
 
   const router = useRouter();
-  const rows = userList.map(data => ({ columns: Object.values(data) }));
+  const rows: Row[] = userList.map(data => ({
+    columns: [data.id, data.login],
+  }));
   const detailUser = (userLogin: string) => {
     router.push(`/users/${userLogin}`);
   };

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios from 'utils/defaultAxios';
 
 import { UserListTemplate } from 'templates/user/list';
 
@@ -24,7 +24,7 @@ const Index = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3001/users/', {
+      .get('users', {
         params: {
           since: currentSince,
         },
