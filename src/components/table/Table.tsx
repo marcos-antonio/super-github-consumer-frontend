@@ -55,6 +55,7 @@ export const Table: FunctionComponent<TableProps> = ({
       return (
         <S.RowContainer
           key={`row-${rowIndex}`}
+          hasClickAction={!!rowClickHandler}
           onClick={() => rowClickHandler?.(row)}
         >
           <S.Row>

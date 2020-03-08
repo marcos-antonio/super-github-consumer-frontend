@@ -48,11 +48,11 @@ export const Body = styled.div`
   flex-direction: column;
 `;
 
-export const RowContainer = styled.div`
+export const RowContainer = styled.div<{ hasClickAction: boolean }>`
   width: calc(100% - 16px);
   border-bottom: solid 1px rgba(0, 0, 0, 0.2);
   padding: 8px;
-  cursor: pointer;
+  cursor: ${({ hasClickAction }) => (hasClickAction ? 'pointer' : 'default')};
 
   &:hover {
     background-color: rgba(0, 0, 0, 0.04);
