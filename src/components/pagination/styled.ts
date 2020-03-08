@@ -13,15 +13,6 @@ export const Container = styled.div`
   padding: 5px 0;
 `;
 
-export const ItemCounterContainer = styled.div`
-  font-family: ${({ theme }) => theme.typography.fontFamily};
-  font-weight: ${({ theme }) => theme.typography.fontWeightMedium};
-  font-size: ${({ theme }) => theme.typography.fontSizeXS};
-  color: ${({ theme }) => theme.palette.onBackground};
-
-  margin-right: 40px;
-`;
-
 export const ArrowLeftIcon = styled(KeyboardArrowLeft)<{ disabled: boolean }>`
   width: 24px;
   height: 24px;
