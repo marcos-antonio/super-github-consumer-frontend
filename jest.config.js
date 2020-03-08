@@ -2,7 +2,9 @@ module.exports = {
   collectCoverageFrom: [
     '**/*.{ts,tsx}',
     '!**/*.d.ts',
+    '!**/model/**',
     '!**/index.ts',
+    '!**/pages/**',
     '!**/styled.ts',
     '!**/GlobalStyle.ts',
     '!**/node_modules/**',
