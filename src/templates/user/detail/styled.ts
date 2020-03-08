@@ -49,9 +49,19 @@ export const FieldVisualizer = styled.div`
   color: ${({ theme }) => theme.palette.onBackground};
 `;
 
-export const FieldLabel = styled.span`
+export const FieldLabel = styled.span<{ alignToEnd?: boolean }>`
+  display: flex;
   font-weight: ${({ theme }) => theme.typography.fontWeightNormal};
   font-size: ${({ theme }) => theme.typography.fontSizeMS};
+
+  justify-content: ${({ alignToEnd }) =>
+    alignToEnd ? 'flex-end' : 'flex-start'};
+`;
+
+export const FieldValue = styled.span<{ alignToEnd?: boolean }>`
+  display: flex;
+  justify-content: ${({ alignToEnd }) =>
+    alignToEnd ? 'flex-end' : 'flex-start'};
 `;
 
 export const ReposTableContainer = styled.div`

@@ -24,7 +24,7 @@ export const UserDetailTemplate: FunctionComponent<UserDetailTemplateProps> = ({
     { child: 'URL' },
   ];
   const reposTableRows: Row[] = userRepos?.map(r => ({
-    columns: Object.values(r),
+    columns: [r.id, r.name, r.htmlUrl],
   }));
 
   return (
@@ -36,27 +36,31 @@ export const UserDetailTemplate: FunctionComponent<UserDetailTemplateProps> = ({
         <S.FieldVisualizerContainer>
           <S.FieldVisualizer>
             <S.FieldLabel>Login</S.FieldLabel>
-            {login}
+            <S.FieldValue>{login}</S.FieldValue>
           </S.FieldVisualizer>
         </S.FieldVisualizerContainer>
         <S.FieldVisualizerContainer alignToEnd={true}>
           <S.FieldVisualizer>
-            <S.FieldLabel>User ID</S.FieldLabel>
-            {id}
+            <S.FieldLabel alignToEnd={true}>User ID</S.FieldLabel>
+            <S.FieldValue alignToEnd={true}>{id}</S.FieldValue>
           </S.FieldVisualizer>
         </S.FieldVisualizerContainer>
         <S.FieldVisualizerContainer>
           <S.FieldVisualizer>
             <S.FieldLabel>Profile URL</S.FieldLabel>
-            <a href={htmlUrl} target="_blank" rel="noreferrer noopener">
-              {htmlUrl}
-            </a>
+            <S.FieldValue>
+              <a href={htmlUrl} target="_blank" rel="noreferrer noopener">
+                {htmlUrl}
+              </a>
+            </S.FieldValue>
           </S.FieldVisualizer>
         </S.FieldVisualizerContainer>
         <S.FieldVisualizerContainer alignToEnd={true}>
           <S.FieldVisualizer>
-            <S.FieldLabel>Created</S.FieldLabel>
-            {DateFormatter.formatStringToBrPattern(createdAt)}
+            <S.FieldLabel alignToEnd={true}>Created</S.FieldLabel>
+            <S.FieldValue alignToEnd={true}>
+              {DateFormatter.formatStringToBrPattern(createdAt)}
+            </S.FieldValue>
           </S.FieldVisualizer>
         </S.FieldVisualizerContainer>
         <S.ReposTableContainer>
