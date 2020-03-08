@@ -12,6 +12,16 @@
     "browser": true,
     "node": true
   },
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/interface-name-prefix": 0,
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "no-empty-pattern": 0,
+    "react/prop-types": 0,
+    "@typescript-eslint/no-explicit-any": "off"
+  },
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
