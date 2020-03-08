@@ -15,7 +15,21 @@ export const PaddedCard = styled(Card)`
   max-width: 50%;
 `;
 
-export const FieldVisualizerContainer = styled.div`
+export const AvatarContainer = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  margin-bottom: 20px;
+`;
+
+export const StyledAvatar = styled.img`
+  max-width: 128px;
+  max-height: 128px;
+
+  border-radius: 10px;
+`;
+
   display: flex;
   flex: 1;
 

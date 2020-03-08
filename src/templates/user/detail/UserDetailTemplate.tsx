@@ -30,6 +30,9 @@ export const UserDetailTemplate: FunctionComponent<UserDetailTemplateProps> = ({
   return (
     <S.Container>
       <S.PaddedCard>
+        <S.AvatarContainer>
+          <S.StyledAvatar src={avatarUrl} />
+        </S.AvatarContainer>
         <S.FieldVisualizerContainer>
           <S.FieldVisualizer>
             <S.FieldLabel>Login:</S.FieldLabel>
