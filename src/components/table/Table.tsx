@@ -2,7 +2,7 @@ import React, { FunctionComponent, ReactNode } from 'react';
 
 import { Pagination, PaginationProps } from 'components/pagination';
 
-import * as S from './styles';
+import * as S from './styled';
 
 export interface Row {
   /**
