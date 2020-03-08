@@ -1,0 +1,697 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Table with elements defining their sizes render component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        style="width: 500px;"
+      >
+        <div
+          class="styled__Container-q0w278-0 iFBbUj"
+        >
+          <div
+            class="styled__Table-q0w278-1 eJXAqz"
+          >
+            <div
+              class="styled__HeaderContainer-q0w278-2 fUNRQo"
+            >
+              <div
+                class="styled__Header-q0w278-3 klUxVQ"
+              >
+                <div
+                  class="styled__HeaderCell-q0w278-4 ksYKoU"
+                  size="20"
+                >
+                  ID
+                </div>
+                <div
+                  class="styled__HeaderCell-q0w278-4 khBZgy"
+                  size="40"
+                >
+                  Login
+                </div>
+                <div
+                  class="styled__HeaderCell-q0w278-4 khBZgy"
+                  size="40"
+                >
+                  Profile URL
+                </div>
+              </div>
+            </div>
+            <div
+              class="styled__Body-q0w278-5 gHKXfy"
+            >
+              <div
+                class="styled__RowContainer-q0w278-6 gXiuGM"
+              >
+                <div
+                  class="styled__Row-q0w278-7 htLHt"
+                >
+                  <div
+                    class="styled__RowCell-q0w278-8 dhhYWj"
+                    size="20"
+                  >
+                    1
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    Octocat 1
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    github.com/octocat1
+                  </div>
+                </div>
+              </div>
+              <div
+                class="styled__RowContainer-q0w278-6 gXiuGM"
+              >
+                <div
+                  class="styled__Row-q0w278-7 htLHt"
+                >
+                  <div
+                    class="styled__RowCell-q0w278-8 dhhYWj"
+                    size="20"
+                  >
+                    2
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    Octocat 2
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    github.com/octocat2
+                  </div>
+                </div>
+              </div>
+              <div
+                class="styled__RowContainer-q0w278-6 gXiuGM"
+              >
+                <div
+                  class="styled__Row-q0w278-7 htLHt"
+                >
+                  <div
+                    class="styled__RowCell-q0w278-8 dhhYWj"
+                    size="20"
+                  >
+                    3
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    Octocat 3
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    github.com/octocat3
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="styled__PaginationContainer-q0w278-9 huNEmJ"
+          >
+            <div
+              class="styled__Container-q50she-0 flkxSk"
+            >
+              <svg
+                aria-hidden="true"
+                class="sc-AxjAm gXIMwt styled__ArrowLeftIcon-q50she-1 hCEWFs"
+                data-testid="arrow-left-icon"
+                fill="currentColor"
+                focusable="false"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"
+                />
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                class="sc-AxjAm gXIMwt styled__ArrowRightIcon-q50she-2 fOntrf"
+                data-testid="arrow-right-icon"
+                fill="currentColor"
+                focusable="false"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                />
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="width: 500px;"
+    >
+      <div
+        class="styled__Container-q0w278-0 iFBbUj"
+      >
+        <div
+          class="styled__Table-q0w278-1 eJXAqz"
+        >
+          <div
+            class="styled__HeaderContainer-q0w278-2 fUNRQo"
+          >
+            <div
+              class="styled__Header-q0w278-3 klUxVQ"
+            >
+              <div
+                class="styled__HeaderCell-q0w278-4 ksYKoU"
+                size="20"
+              >
+                ID
+              </div>
+              <div
+                class="styled__HeaderCell-q0w278-4 khBZgy"
+                size="40"
+              >
+                Login
+              </div>
+              <div
+                class="styled__HeaderCell-q0w278-4 khBZgy"
+                size="40"
+              >
+                Profile URL
+              </div>
+            </div>
+          </div>
+          <div
+            class="styled__Body-q0w278-5 gHKXfy"
+          >
+            <div
+              class="styled__RowContainer-q0w278-6 gXiuGM"
+            >
+              <div
+                class="styled__Row-q0w278-7 htLHt"
+              >
+                <div
+                  class="styled__RowCell-q0w278-8 dhhYWj"
+                  size="20"
+                >
+                  1
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  Octocat 1
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  github.com/octocat1
+                </div>
+              </div>
+            </div>
+            <div
+              class="styled__RowContainer-q0w278-6 gXiuGM"
+            >
+              <div
+                class="styled__Row-q0w278-7 htLHt"
+              >
+                <div
+                  class="styled__RowCell-q0w278-8 dhhYWj"
+                  size="20"
+                >
+                  2
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  Octocat 2
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  github.com/octocat2
+                </div>
+              </div>
+            </div>
+            <div
+              class="styled__RowContainer-q0w278-6 gXiuGM"
+            >
+              <div
+                class="styled__Row-q0w278-7 htLHt"
+              >
+                <div
+                  class="styled__RowCell-q0w278-8 dhhYWj"
+                  size="20"
+                >
+                  3
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  Octocat 3
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  github.com/octocat3
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="styled__PaginationContainer-q0w278-9 huNEmJ"
+        >
+          <div
+            class="styled__Container-q50she-0 flkxSk"
+          >
+            <svg
+              aria-hidden="true"
+              class="sc-AxjAm gXIMwt styled__ArrowLeftIcon-q50she-1 hCEWFs"
+              data-testid="arrow-left-icon"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"
+              />
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="sc-AxjAm gXIMwt styled__ArrowRightIcon-q50she-2 fOntrf"
+              data-testid="arrow-right-icon"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+              />
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component: Table with elements not defining their sizes render component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        style="width: 500px;"
+      >
+        <div
+          class="styled__Container-q0w278-0 iFBbUj"
+        >
+          <div
+            class="styled__Table-q0w278-1 eJXAqz"
+          >
+            <div
+              class="styled__HeaderContainer-q0w278-2 fUNRQo"
+            >
+              <div
+                class="styled__Header-q0w278-3 klUxVQ"
+              >
+                <div
+                  class="styled__HeaderCell-q0w278-4 ksYKoU"
+                  size="20"
+                >
+                  ID
+                </div>
+                <div
+                  class="styled__HeaderCell-q0w278-4 khBZgy"
+                  size="40"
+                >
+                  Login
+                </div>
+                <div
+                  class="styled__HeaderCell-q0w278-4 khBZgy"
+                  size="40"
+                >
+                  Profile URL
+                </div>
+              </div>
+            </div>
+            <div
+              class="styled__Body-q0w278-5 gHKXfy"
+            >
+              <div
+                class="styled__RowContainer-q0w278-6 bOruCu"
+              >
+                <div
+                  class="styled__Row-q0w278-7 htLHt"
+                >
+                  <div
+                    class="styled__RowCell-q0w278-8 dhhYWj"
+                    size="20"
+                  >
+                    1
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    Octocat 1
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    github.com/octocat1
+                  </div>
+                </div>
+              </div>
+              <div
+                class="styled__RowContainer-q0w278-6 bOruCu"
+              >
+                <div
+                  class="styled__Row-q0w278-7 htLHt"
+                >
+                  <div
+                    class="styled__RowCell-q0w278-8 dhhYWj"
+                    size="20"
+                  >
+                    2
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    Octocat 2
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    github.com/octocat2
+                  </div>
+                </div>
+              </div>
+              <div
+                class="styled__RowContainer-q0w278-6 bOruCu"
+              >
+                <div
+                  class="styled__Row-q0w278-7 htLHt"
+                >
+                  <div
+                    class="styled__RowCell-q0w278-8 dhhYWj"
+                    size="20"
+                  >
+                    3
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    Octocat 3
+                  </div>
+                  <div
+                    class="styled__RowCell-q0w278-8 fsmGRZ"
+                    size="40"
+                  >
+                    github.com/octocat3
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="styled__PaginationContainer-q0w278-9 huNEmJ"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="width: 500px;"
+    >
+      <div
+        class="styled__Container-q0w278-0 iFBbUj"
+      >
+        <div
+          class="styled__Table-q0w278-1 eJXAqz"
+        >
+          <div
+            class="styled__HeaderContainer-q0w278-2 fUNRQo"
+          >
+            <div
+              class="styled__Header-q0w278-3 klUxVQ"
+            >
+              <div
+                class="styled__HeaderCell-q0w278-4 ksYKoU"
+                size="20"
+              >
+                ID
+              </div>
+              <div
+                class="styled__HeaderCell-q0w278-4 khBZgy"
+                size="40"
+              >
+                Login
+              </div>
+              <div
+                class="styled__HeaderCell-q0w278-4 khBZgy"
+                size="40"
+              >
+                Profile URL
+              </div>
+            </div>
+          </div>
+          <div
+            class="styled__Body-q0w278-5 gHKXfy"
+          >
+            <div
+              class="styled__RowContainer-q0w278-6 bOruCu"
+            >
+              <div
+                class="styled__Row-q0w278-7 htLHt"
+              >
+                <div
+                  class="styled__RowCell-q0w278-8 dhhYWj"
+                  size="20"
+                >
+                  1
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  Octocat 1
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  github.com/octocat1
+                </div>
+              </div>
+            </div>
+            <div
+              class="styled__RowContainer-q0w278-6 bOruCu"
+            >
+              <div
+                class="styled__Row-q0w278-7 htLHt"
+              >
+                <div
+                  class="styled__RowCell-q0w278-8 dhhYWj"
+                  size="20"
+                >
+                  2
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  Octocat 2
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  github.com/octocat2
+                </div>
+              </div>
+            </div>
+            <div
+              class="styled__RowContainer-q0w278-6 bOruCu"
+            >
+              <div
+                class="styled__Row-q0w278-7 htLHt"
+              >
+                <div
+                  class="styled__RowCell-q0w278-8 dhhYWj"
+                  size="20"
+                >
+                  3
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  Octocat 3
+                </div>
+                <div
+                  class="styled__RowCell-q0w278-8 fsmGRZ"
+                  size="40"
+                >
+                  github.com/octocat3
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="styled__PaginationContainer-q0w278-9 huNEmJ"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
