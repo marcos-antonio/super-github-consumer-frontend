@@ -35,27 +35,27 @@ export const UserDetailTemplate: FunctionComponent<UserDetailTemplateProps> = ({
         </S.AvatarContainer>
         <S.FieldVisualizerContainer>
           <S.FieldVisualizer>
-            <S.FieldLabel>Login:</S.FieldLabel>
+            <S.FieldLabel>Login</S.FieldLabel>
             {login}
           </S.FieldVisualizer>
         </S.FieldVisualizerContainer>
-        <S.FieldVisualizerContainer>
+        <S.FieldVisualizerContainer alignToEnd={true}>
           <S.FieldVisualizer>
-            <S.FieldLabel>User ID:</S.FieldLabel>
+            <S.FieldLabel>User ID</S.FieldLabel>
             {id}
           </S.FieldVisualizer>
         </S.FieldVisualizerContainer>
         <S.FieldVisualizerContainer>
           <S.FieldVisualizer>
-            <S.FieldLabel>Profile URL:</S.FieldLabel>
+            <S.FieldLabel>Profile URL</S.FieldLabel>
             <a href={htmlUrl} target="_blank" rel="noreferrer noopener">
               {htmlUrl}
             </a>
           </S.FieldVisualizer>
         </S.FieldVisualizerContainer>
-        <S.FieldVisualizerContainer>
+        <S.FieldVisualizerContainer alignToEnd={true}>
           <S.FieldVisualizer>
-            <S.FieldLabel>Created:</S.FieldLabel>
+            <S.FieldLabel>Created</S.FieldLabel>
             {DateFormatter.formatStringToBrPattern(createdAt)}
           </S.FieldVisualizer>
         </S.FieldVisualizerContainer>

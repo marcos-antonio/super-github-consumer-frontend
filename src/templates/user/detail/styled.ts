@@ -30,8 +30,11 @@ export const StyledAvatar = styled.img`
   border-radius: 10px;
 `;
 
+export const FieldVisualizerContainer = styled.div<{ alignToEnd?: boolean }>`
   display: flex;
   flex: 1;
+  justify-content: ${({ alignToEnd }) =>
+    alignToEnd ? 'flex-end' : 'flex-start'};
 
   min-width: 50%;
 `;
