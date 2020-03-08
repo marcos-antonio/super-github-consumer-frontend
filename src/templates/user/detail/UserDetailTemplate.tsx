@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 
-import { DateFormatter } from 'utils/DateTransformer';
+import { DateFormatter } from 'utils/dateFormatter/DateFormatter';
 import { User } from 'model/user';
 import { Repo } from 'model/repo';
 
